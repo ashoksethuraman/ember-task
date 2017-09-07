@@ -8,7 +8,13 @@ module.exports = function(defaults) {
     // Add options here
     sassOptions: {
     includePaths: [ 'node_modules/ember-dialog/addon/styles' ]
-  }
+  },
+
+    'ember-bootstrap': {
+      bootstrapVersion: 3,
+      importBootstrapFont: true,
+      importBootstrapCSS: false
+    }
   });
 
   // Use `app.import` to add additional libraries to the generated
